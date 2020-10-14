@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+  font-size: xx-large;
+}
+
+.container > *
+{
+  border: burlywood dashed thin;
+}
